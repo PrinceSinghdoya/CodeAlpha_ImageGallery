@@ -1,3 +1,7 @@
+## Disclaimer
+
+All images used in this project are sourced from publicly available image platforms and are used for educational and portfolio demonstration purposes only. Full credit belongs to the respective photographers and owners.
+
 # 🎨 Luxury Art Gallery
 
 A premium and modern fully responsive Image Gallery Website built using:

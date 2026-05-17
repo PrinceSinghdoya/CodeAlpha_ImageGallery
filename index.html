@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artistry - Luxury Gallery</title>
+    <meta name="description" content="Premium Luxury Art Gallery Website by Prince">
+    <link rel="shortcut icon" href="https://cdn.dribbble.com/userupload/3187373/file/original-0b9a9b7eb1c1f165fd9fd0c2e7fac73e.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">Artistry</div>
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#">Artists</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-right">
+            <button class="cta-btn">Explore</button>
+            <select class="language">
+                <option>EN</option>
+                <option>FR</option>
+                <option>ES</option>
+            </select>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Experience <span>Luxury</span> Art Collection</h1>
+            <p>
+                Discover premium modern artworks, stunning photography,
+                elegant portraits, and luxury automotive visuals curated
+                for a world-class gallery experience.
+            </p>
+            <a href="#filters" class="hero-btn">Discover Collection</a>
+        </div>
+    </section>
+    <section id="filters" class="filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="abstract">Abstract</button>
+        <button class="filter-btn" data-filter="nature">Nature</button>
+        <button class="filter-btn" data-filter="portrait">Portrait</button>
+        <button class="filter-btn" data-filter="modern">Modern</button>
+        <button class="filter-btn" data-filter="cars">Cars</button>
+    </section>
+    <section class="gallery" id="gallery">
+        <div class="card" data-category="abstract">
+            <img src="https://images.unsplash.com/photo-1541701494587-cb58502866ab?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Abstract Flow</h3>
+                <span>Abstract</span>
+            </div>
+        </div>
+        <div class="card" data-category="abstract">
+            <img src="https://images.unsplash.com/photo-1515405295579-ba7b45403062?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Color Harmony</h3>
+                <span>Abstract</span>
+            </div>
+        </div>
+        <div class="card" data-category="abstract">
+            <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Creative Shapes</h3>
+                <span>Abstract</span>
+            </div>
+        </div>
+        <div class="card" data-category="abstract">
+            <img src="https://images.unsplash.com/photo-1547891654-e66ed7ebb968?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Golden Motion</h3>
+                <span>Abstract</span>
+            </div>
+        </div>
+        <div class="card" data-category="abstract">
+            <img src="https://images.unsplash.com/photo-1545239351-1141bd82e8a6?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Luxury Texture</h3>
+                <span>Abstract</span>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Forest Light</h3>
+                <span>Nature</span>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Mountain View</h3>
+                <span>Nature</span>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Deep Woods</h3>
+                <span>Nature</span>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Lake Breeze</h3>
+                <span>Nature</span>
+            </div>
+        </div>
+        <div class="card" data-category="nature">
+            <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Wild Horizon</h3>
+                <span>Nature</span>
+            </div>
+        </div>
+        <div class="card" data-category="portrait">
+            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Silent Face</h3>
+                <span>Portrait</span>
+            </div>
+        </div>
+        <div class="card" data-category="portrait">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Elegant Look</h3>
+                <span>Portrait</span>
+            </div>
+        </div>
+        <div class="card" data-category="portrait">
+            <img src="https://images.unsplash.com/photo-1521119989659-a83eee488004?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Modern Beauty</h3>
+                <span>Portrait</span>
+            </div>
+        </div>
+        <div class="card" data-category="portrait">
+            <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Shadow Portrait</h3>
+                <span>Portrait</span>
+            </div>
+        </div>
+        <div class="card" data-category="portrait">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Luxury Style</h3>
+                <span>Portrait</span>
+            </div>
+        </div>
+        <div class="card" data-category="modern">
+            <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Modern Lines</h3>
+                <span>Modern</span>
+            </div>
+        </div>
+        <div class="card" data-category="modern">
+            <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Urban Space</h3>
+                <span>Modern</span>
+            </div>
+        </div>
+        <div class="card" data-category="modern">
+            <img src="https://images.unsplash.com/photo-1494522358652-f30e61a60313?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Luxury Interior</h3>
+                <span>Modern</span>
+            </div>
+        </div>
+        <div class="card" data-category="modern">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Future Design</h3>
+                <span>Modern</span>
+            </div>
+        </div>
+        <div class="card" data-category="modern">
+            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Minimal House</h3>
+                <span>Modern</span>
+            </div>
+        </div>
+        <div class="card" data-category="cars">
+            <img src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Luxury Coupe</h3>
+                <span>Cars</span>
+            </div>
+        </div>
+        <div class="card" data-category="cars">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Sports Machine</h3>
+                <span>Cars</span>
+            </div>
+        </div>
+        <div class="card" data-category="cars">
+            <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Midnight Drive</h3>
+                <span>Cars</span>
+            </div>
+        </div>
+        <div class="card" data-category="cars">
+            <img src="https://images.unsplash.com/photo-1553440569-bcc63803a83d?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Supercar Elite</h3>
+                <span>Cars</span>
+            </div>
+        </div>
+        <div class="card" data-category="cars">
+            <img src="https://images.unsplash.com/photo-1502877338535-766e1452684a?q=80&w=1200&auto=format&fit=crop"
+                loading="lazy">
+            <div class="overlay">
+                <h3>Velocity</h3>
+                <span>Cars</span>
+            </div>
+        </div>
+    </section>
+
+    <div class="lightbox">
+        <span class="close-btn">&times;</span>
+        <button class="prev-btn">&#10094;</button>
+        <img class="lightbox-img">
+        <button class="next-btn">&#10095;</button>
+    </div>
+
+    <button id="topBtn">↑</button>
+
+    <section id="contact" class="contact-section">
+        <h2>Connect With Me</h2>
+        <p>Follow my creative journey and connect through social platforms.</p>
+
+        <div id="social-links" class="social-links">
+            <a href="https://www.instagram.com/_xprnc/" target="_blank">Instagram</a>
+            <a href="https://github.com/princesinghdoya" target="_blank">GitHub</a>
+            <a href="https://x.com/princesinghdoya" target="_blank">X / Twitter</a>
+            <a href="https://linkedin.com/in/princesinghdoya" target="_blank">LinkedIn</a>
+        </div>
+    </section>
+
+    <footer class="footer">Made with ❤️ by Prince</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
